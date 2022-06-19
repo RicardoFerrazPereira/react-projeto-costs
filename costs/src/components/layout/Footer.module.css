@@ -1,0 +1,34 @@
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 3em;
+  text-align: center;
+}
+
+.social_list {
+  display: flex; /* deixar itens na horizontal */
+  justify-content: center; /* centralizar os itens */
+  list-style-type: none; /* tira as bolinhas brancas da lista */
+}
+
+.social_list li{
+  margin: 0 1em; /* margem nas laterais de cada um dos icones das redes sociais */
+
+}
+
+.social_list li:hover {
+  color: #ffbb33;
+}
+
+.social_list svg {
+  font-size: 1.5em;
+  cursor: pointer; /* muda o cursor do mouse quando passar em cima do icone */
+}
+.copy_right {
+  margin-top: 2em;
+}
+
+.copy_right span {
+  font-weight: bold;
+  color: #ffbb33;
+}
